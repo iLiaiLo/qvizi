@@ -1,0 +1,72 @@
+[
+    {"question":"ჩამოთვლილთაგან რომელია ყველაზე მაღალი ჩანჩქერი მსოფლიოში?",
+    "answers":[
+        {"answer":"ნიაგარა","iscorrect":false},
+        {"answer":"ტუგელა","iscorrect":false},
+        {"answer":"ანხელი","iscorrect":true}
+    ]
+    },
+    {"question":"ჩამოთვლილთაგან რომელია ყველაზე გრძელი მდინარე მსოფლიოში?",
+    "answers":[
+        {"answer":"ნილოსი","iscorrect":true},
+        {"answer":"ამაზონი","iscorrect":false},
+        {"answer":"იანძი","iscorrect":false}
+    ]
+    },
+    {"question":"ჩამოთვლილთაგან რომელია ყველაზე მაღალი მთა ევროპაში?",
+    "answers":[
+        {"answer":"მონბლანი","iscorrect":false},
+        {"answer":"იალბუზი","iscorrect":true},
+        {"answer":"შხარა","iscorrect":false}
+    ]
+    },
+    {"question":"ჩამოთვლილთაგან რომელია იაპონიის დედაქალაქი?",
+    "answers":[
+        {"answer":"ფხენიანი","iscorrect":false},
+        {"answer":"ტოკიო","iscorrect":true},
+        {"answer":"ბანგკოკი","iscorrect":false}
+    ]
+    },
+    {"question":"ჩამოთვლილთაგან რომელია ყველაზე დიდი ოკეანე?",
+    "answers":[
+        {"answer":"წყნარი","iscorrect":true},
+        {"answer":"ატლანტის","iscorrect":false},
+        {"answer":"ინდოეთის","iscorrect":false}
+    ]
+    },
+    {"question":"ჩამოთვლილთაგან რომელია ყველაზე დიდი ნახევარკუნძული?",
+    "answers":[
+        {"answer":"არაბეთის","iscorrect":true},
+        {"answer":"ინდოსტანის","iscorrect":false},
+        {"answer":"ბალკანეთის","iscorrect":false}
+    ]
+    },
+    {"question":"ჩამოთვლილთაგან რომელია ყველაზე დიდი კუნძული?",
+    "answers":[
+        {"answer":"ახალი გვინეა","iscorrect":false},
+        {"answer":"გრენლანდია","iscorrect":true},
+        {"answer":"დიდი ბრიტანეთი","iscorrect":false}
+    ]
+    },
+    {"question":"ჩამოთვლითაგან რომელია კანადის დედაქალაქი?",
+    "answers":[
+        {"answer":"სიდნეი","iscorrect":false},
+        {"answer":"ჰელსინკი","iscorrect":false},
+        {"answer":"ოტავა","iscorrect":true}
+    ]
+    },
+    {"question":"რომელ ნახევარკუნძულზე მდებარეობს დანია?",
+    "answers":[
+        {"answer":"იუტლანდიის","iscorrect":true},
+        {"answer":"სკანდინავიის","iscorrect":false},
+        {"answer":"პირენეის","iscorrect":false}
+    ]
+    },
+    {"question":"ჩამოთვლილთგან რომელი სახელმწიფოები ესაზღვრება შავ ზღვას?",
+    "answers":[
+        {"answer":"საქართველო უკრაინა რუმინეთი რუსეთი ბულგარეთი","iscorrect":false},
+        {"answer":"საქართველო რუსეთი უკრაინა თურქეთი საბერძნეთი","iscorrect":false},
+        {"answer":"საქართველო რუსეთი ბულგარეთი უკრაინა რუმინეთი თურქეთი","iscorrect":true}
+    ]
+    }
+]

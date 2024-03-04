@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    padding: 0;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+    background-image:linear-gradient(45deg,dodgerblue,lightblue,dodgerblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.wholeContent{
+    display: flex;
+    flex-direction: column-reverse;
+    gap:10px;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+}
+#container>button{
+    width:150px;
+    outline: none;
+    cursor: pointer;
+    background-color:rgb(68, 185, 232);
+    border: none;
+    color:white;
+    font-size: 26px;
+    opacity: 0.7;
+}
+#container>button:hover{
+    background-color:rgb(8, 161, 222); ;
+}
+#container>button:first-child{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#container>button:last-child{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.content{
+    height:300px;
+    width:300px;
+    padding-left:10px;
+    padding-right: 10px;
+    color:white;
+    background-color: rgb(14, 14, 175);
+    opacity: 0.7;
+}
+.parentOfInputLab{
+   margin-top:15px;
+}
+
+
+.Input{
+    transform: scale(1.5);
+}
+.Lab{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Lab:hover{
+    color:rgb(177, 231, 249);
+}
+.question{
+    font-size: 24px;
+}
+#getRes{
+    width:160px;
+    padding:15px;
+    align-self: center;
+    border-radius: 20px;
+    background-color: rgb(68, 185, 232);
+    border:2px solid darkblue;
+    font-size: 18px;
+    color:white;
+    word-break: break-all;
+}
+@media screen and (max-width: 700px) {
+    *{box-sizing: border-box;}
+   #container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+    .content{
+        width:100%;
+        height: auto;
+    }
+    .parentOfInputLab{
+        padding-bottom: 5px;
+    }
+    #container>button{
+        width: 100%;
+        border-radius: 20px;
+        background-color:rgb(0, 90, 180);
+    }
+    #container>button:first-child{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    #container>button:last-child{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+}
